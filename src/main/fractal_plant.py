@@ -18,8 +18,10 @@ def generate_instructions(instructions):
     for char in instructions:
         if char == "X":
             new_instructions += "F-[[X]+X]+F[+FX]-X"
-        if char == "F":
+        elif char == "F":
             new_instructions += "FF"
+        else:
+            new_instructions += char
 
     return new_instructions
 
@@ -30,7 +32,7 @@ def draw(instructions, length, angle):
     t.speed(0)
     t.color("green")
     t.penup()
-    t.goto(-200, -250)
+    t.goto(0, -100)
     t.left(90)
     t.pendown()
 
@@ -39,19 +41,19 @@ def draw(instructions, length, angle):
     for char in instructions:
         if char == "F":
             t.forward(length)
-        if char == "[":
+        elif char == "[":
             pos.append(t.position())
             dir.append(t.heading())
-        if char == "]":
+        elif char == "]":
             t.penup()
             t.goto(pos[-1][0], pos[-1][1])
             t.setheading(dir[-1])
             pos.pop()
             dir.pop()
             t.pendown()
-        if char == "+":
+        elif char == "+":
             t.right(angle)
-        if char == "-":
+        elif char == "-":
             t.left(angle)
 
     screen.update()
