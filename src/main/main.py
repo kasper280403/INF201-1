@@ -11,7 +11,7 @@ def main():
     start = "A"
     angle = 60
     iterations = 10
-    length = 5
+    length = 3
 
     sierpinsky.draw_curve(rules, start, angle, iterations, length)
 

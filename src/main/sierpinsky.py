@@ -23,9 +23,9 @@ def draw_lsystem(t, instructions, length, angle):
 
 def draw_curve(rules, start, angle, iterations, length):
     t = Turtle()
-    t.speed(0)
+    t.speed(10)
     t.penup()
-    t.goto(-200, 100)
+    t.goto(-250, 150)
     t.pendown()
 
     instructions = generate_lsystem(start, rules, iterations)
