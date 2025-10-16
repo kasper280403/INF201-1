@@ -6,7 +6,8 @@ Description
 
 ## 📥 Download & Run
 
-Download the latest release from....
+Download the latest release from 
+```https://github.com/kasper280403/INF201-1 ```
 
 ### ✅ Run the Game
 
@@ -19,8 +20,8 @@ Download the latest release from....
 ### Clone the Repository
 
 ```bash
-git clone SSH-LINK
-cd FILENAME
+git clone git@github.com:kasper280403/INF201-1.git
+cd path/to/file/INF201-1
 ```
 
 ---
@@ -36,26 +37,18 @@ cd FILENAME
 ## 🧱 Project Structure
 
 ```
-pythonTemplate/
-├── src/
-│   ├── main/
-│   │   ├── main.py
-│   │   ├── resource_getter.py
-│   │   └── user_input.py
-│   └── resources/
-├── tests/
-├── README.md
-├── requirements.txt
-└── .gitignore
+
 ```
 
 ---
 
 ## 👤 Author(s)
 
-**Kasper S. Karlsen**  
-_Developed for ORGNISATION/COURSE at PLACE_
+**Kasper S. Karlsen**
 [GitHub Profile](https://github.com/kasper280403)
 
+Henny Brenden
+[Github Profile](https://github.com/hennybrenden)
+_Developed for ORGNISATION/COURSE at PLACE_
 ---
 
