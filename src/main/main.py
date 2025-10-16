@@ -1,7 +1,10 @@
-def main():
-    #print("Program is running. Type q/Q to quit.")
+from src.main import snowflake
 
-    while True:
+
+def main():
+    snowflake.draw_flake(3)
+
+    #while True:
         # Her kan du legge til annen funksjonalitet som skal kjøre kontinuerlig
 
 
