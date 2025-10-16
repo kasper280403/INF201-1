@@ -7,11 +7,10 @@ def generate_lsystem(axiom, rules, n):
     for _ in range(n):
         next_result = ""
         for char in result:
-            next_result += rules.get(char, char)  # Behold +, - uendret
+            next_result += rules.get(char, char)
         result = next_result
     return result
 
-# --- Funksjon for å tegne fraktalen ---
 def draw_lsystem(t, instructions, length, angle):
     for cmd in instructions:
         if cmd in ("A", "B"):
@@ -26,7 +25,7 @@ def draw_curve(rules, start, angle, iterations, length):
     t = Turtle()
     t.speed(0)
     t.penup()
-    t.goto(-200, 100)  # Startposisjon
+    t.goto(-200, 100)
     t.pendown()
 
     instructions = generate_lsystem(start, rules, iterations)

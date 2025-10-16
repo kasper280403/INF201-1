@@ -11,9 +11,9 @@ def main():
     start = "A"
     angle = 60
     iterations = 10
-    length = 10
+    length = 5
 
-    sierpinsky.draw_curve(start, angle, length, iterations)
+    sierpinsky.draw_curve(rules, start, angle, iterations, length)
 
 if __name__ == "__main__":
     main()
