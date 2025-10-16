@@ -1,24 +1,35 @@
-from turtle import Turtle, Screen
-
-def dragon(turtle, depth):
-    turtle.forward(10)  # F
-    dragonX(turtle, depth - 1)  # X
+from turtle import Turtle, done
 
 
-def dragonX(turtle, depth):
-    if depth > 0:  # X ->
-        dragonX(turtle, depth - 1)  # X
-        turtle.left(90)  # +
-        dragonY(turtle, depth - 1)  # Y
-        turtle.forward(10)  # F
+
+def generate_lsystem(axiom, rules, n):
+    result = axiom
+    for _ in range(n):
+        next_result = ""
+        for char in result:
+            next_result += rules.get(char, char)  # Behold +, - uendret
+        result = next_result
+    return result
+
+# --- Funksjon for å tegne fraktalen ---
+def draw_lsystem(t, instructions, length, angle):
+    for cmd in instructions:
+        if cmd in ("A", "B"):
+            t.forward(length)
+        elif cmd == "+":
+            t.right(angle)
+        elif cmd == "-":
+            t.left(angle)
 
 
-def dragonY(turtle, depth):
-    if depth > 0:  # Y ->
-        turtle.forward(10)  # F
-        dragonX(turtle, depth - 1)  # X
-        turtle.right(90)  # -
-        dragonY(turtle, depth - 1)  # Y
+def draw_curve(rules, start, angle, iterations, length):
+    t = Turtle()
+    t.speed(0)
+    t.penup()
+    t.goto(-200, 100)  # Startposisjon
+    t.pendown()
 
-t = Turtle()
-dragon(t, 10)
+    instructions = generate_lsystem(start, rules, iterations)
+    draw_lsystem(t, instructions, length, angle)
+
+    done()
