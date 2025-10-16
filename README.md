@@ -49,6 +49,7 @@ cd path/to/file/INF201-1
 
 **Henny Brenden**
 [Github Profile](https://github.com/hennybrenden)
+
 _Developed for ORGNISATION/COURSE at PLACE_
 ---
 
