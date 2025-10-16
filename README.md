@@ -1,4 +1,4 @@
-# First coop task INF201
+# First co-op task INF201
 
 Description
 
