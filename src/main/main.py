@@ -2,7 +2,7 @@ from src.main import snowflake, sierpinsky
 
 
 def main():
-    #snowflake.draw_flake(3)
+    snowflake.draw_flake(3)
 
     rules = {
         "A": "B-A-B",

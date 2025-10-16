@@ -23,7 +23,7 @@ def draw_lsystem(t, instructions, length, angle):
 
 def draw_curve(rules, start, angle, iterations, length):
     t = Turtle()
-    t.speed(10)
+    t.speed(0)
     t.penup()
     t.goto(-250, 150)
     t.pendown()
