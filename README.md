@@ -47,7 +47,7 @@ cd path/to/file/INF201-1
 **Kasper S. Karlsen**
 [GitHub Profile](https://github.com/kasper280403)
 
-Henny Brenden
+**Henny Brenden**
 [Github Profile](https://github.com/hennybrenden)
 _Developed for ORGNISATION/COURSE at PLACE_
 ---

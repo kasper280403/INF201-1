@@ -1,3 +1,5 @@
+#Kasper S Karlsen, Henny Brenden
+
 from src.main import snowflake, sierpinsky, fractal_plant
 
 

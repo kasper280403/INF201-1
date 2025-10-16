@@ -1,6 +1,6 @@
+#Kasper S Karlsen, Henny Brenden
+
 from turtle import Turtle, done
-
-
 
 def generate_lsystem(axiom, rules, n):
     result = axiom

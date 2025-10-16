@@ -1,3 +1,5 @@
+#Kasper S Karlsen, Henny Brenden
+
 from turtle import Turtle, Screen
 
 def complete_flake(t, depth):
