@@ -1,0 +1,95 @@
+commit 5749444b1e3757105961869d46b3989fb011f739
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Thu Oct 16 16:01:16 2025 +0200
+
+    Added names to files
+
+commit d2328156540f691c0259c8215cb09b32d22bf5d5
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Thu Oct 16 15:57:58 2025 +0200
+
+    Now it looks lika a plant
+
+commit 758c832a2549613dd4ea5ad51e2b777a4abe94be
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Thu Oct 16 15:55:25 2025 +0200
+
+    fractal_plant.py added, plant looks like a steelwire-that is a feature
+
+commit 0bd01fe8f8697798bd26046d088ae2897ea40469
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Thu Oct 16 15:17:48 2025 +0200
+
+    Deleted .whl file form resources
+
+commit eecb712090a6c3748327a5804ec54f2fbc6fb635
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Thu Oct 16 15:15:38 2025 +0200
+
+    Added snowflake back into main
+
+commit cb6e69a2fd4fd2e5c53581c607de784b9fbda52e
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Thu Oct 16 15:12:19 2025 +0200
+
+    More variable perfecting
+
+commit 151bc065c40fd7e252e8f0c016b2868590487588
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Thu Oct 16 15:07:43 2025 +0200
+
+    Fikset på variabler så den tegnet penere
+
+commit 606061f4777799c8ae6af0b263645fe7ecf84187
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Thu Oct 16 15:03:03 2025 +0200
+
+    Fixed sierpinsky.py
+
+commit 9a2018aba920a18e9e9a89222209c93432efd963
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Thu Oct 16 14:55:12 2025 +0200
+
+    Created sierpinsky.py
+
+commit 3492fc2a0d09a803c3510c9be5adc9dde6390edf
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Thu Oct 16 14:48:10 2025 +0200
+
+    Connected snowflake to main
+
+commit a728ade11cf5418eea5dd6a76932a126f3d81a09
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Thu Oct 16 13:55:50 2025 +0200
+
+    More updates to README.md
+
+commit 38611d58e5bf2d341c291aeac1b8fa48cc5896d8
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Thu Oct 16 13:54:30 2025 +0200
+
+    Updated readme
+
+commit 2485c1a0d48584c9f9b3e084c58dae215a7fbe9c
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Thu Oct 16 13:51:25 2025 +0200
+
+    Deleted useless files
+
+commit 830816c6dd085ac7af0dc6bb43052c77fc88dfdd
+Author: henny Brenden <hennybrenden@MacBook-Pro.local>
+Date:   Tue Oct 7 09:56:14 2025 +0200
+
+    Added snowflake.py and resource
+
+commit 29810a2f25e855c3a848bf648215684cd7b06738
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Tue Oct 7 09:30:26 2025 +0200
+
+    .gitignore added
+
+commit 60aaa97885d68232b05743e59bca5a4fe31436c5
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Tue Oct 7 09:23:08 2025 +0200
+
+    Initial setup
