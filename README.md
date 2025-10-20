@@ -1,4 +1,4 @@
-# First coop task INF201
+# First co-op task INF201
 
 Description
 
@@ -49,6 +49,7 @@ cd path/to/file/INF201-1
 
 **Henny Brenden**
 [Github Profile](https://github.com/hennybrenden)
+
 _Developed for ORGNISATION/COURSE at PLACE_
 ---
 
