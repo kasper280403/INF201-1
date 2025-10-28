@@ -6,7 +6,11 @@ import turtle
 from src.main.del2.drawing import Rectangle
 
 
-def create_rectangle(xMin, yMin, xMax, yMax):
+def create_random_rectangle(area):
+    xMin = area[0]
+    yMin = area[1]
+    xMax = area[2]
+    yMax = area[3]
 
     random_list = []
     for i in range(2):
@@ -16,6 +20,9 @@ def create_rectangle(xMin, yMin, xMax, yMax):
     rectangle = Rectangle(random_list[0], random_list[1], random_list[2], random_list[3])
     rectangle.control_corners()
     return rectangle
+
+def create_circle():
+
 
 def create_turtle():
     t = turtle.Turtle()
@@ -28,8 +35,9 @@ def create_turtle():
 
 if __name__ == "__main__":
     rectangles = []
+    draw_area = [-300, -300, 300, 300]
     for i in range(3):
-        rectangles.append(create_rectangle(-300, -300, 300, 300))
+        rectangles.append(create_random_rectangle(draw_area))
 
     for r in rectangles:
         r.info()
@@ -38,6 +46,7 @@ if __name__ == "__main__":
 
     for r in rectangles:
         r.draw(t)
+
     turtle.done()
 
 
