@@ -21,7 +21,15 @@ def create_random_rectangle(area):
     rectangle.control_corners()
     return rectangle
 
-def create_circle():
+def create_circle_random(area, r_range):
+    for a in area:
+        if a < 0:
+            a = a + r_range[1]
+        else:
+            a = a - r_range[1]
+
+
+
 
 
 def create_turtle():
