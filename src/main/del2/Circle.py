@@ -1,6 +1,5 @@
 import math
 
-
 class Circle:
     def __init__(self, cx, cy, r, *, color="black", linewidth=2, segments=120):
         self.cx, self.cy, self.r = cx, cy, r

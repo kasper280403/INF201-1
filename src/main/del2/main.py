@@ -36,8 +36,6 @@ def create_circle_random(area, r_range):
 
     return circle
 
-
-
 def create_turtle():
     t = turtle.Turtle()
     t.shape('turtle')
@@ -54,7 +52,7 @@ if __name__ == "__main__":
     rectangles = []
     circles = []
 
-    for i in range(3):
+    for _ in range(3):
         rectangles.append(create_random_rectangle(draw_area))
         circles.append(create_circle_random(draw_area, [20, 100]))
 
