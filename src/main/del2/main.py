@@ -5,6 +5,7 @@ from src.main.del2.drawing import Rectangle
 
 
 def create_rectangle(xMin, yMin, xMax, yMax):
+
     random_list = []
     for i in range(2):
         random_list.append(random.randint(xMin, xMax))
@@ -17,6 +18,7 @@ def create_rectangle(xMin, yMin, xMax, yMax):
 def create_turtle():
     t = turtle.Turtle()
     t.shape('turtle')
+    t.color('green')
     t.speed(0)
 
     return t
@@ -25,11 +27,16 @@ def create_turtle():
 if __name__ == "__main__":
     rectangles = []
     for i in range(3):
-        rectangles.append(create_rectangle(0, 0, 100, 100))
+        rectangles.append(create_rectangle(-300, -300, 300, 300))
 
     for r in rectangles:
         r.info()
 
     t = create_turtle()
+
+    for r in rectangles:
+        r.draw(t)
+
+    turtle.done()
 
 
