@@ -6,7 +6,6 @@ class Triangle:
         self.linewidth = linewidth
 
     def area(self):
-        # Shoelace-formelen. Dette er faktisk matte, ikke svart magi.
         x1, y1 = self.p1
         x2, y2 = self.p2
         x3, y3 = self.p3
