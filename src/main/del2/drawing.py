@@ -1,11 +1,13 @@
 # Henny Brenden, Kasper S. Karlsen
 
 class Rectangle:
-    def __init__(self, x0, y0, x1, y1):
+    def __init__(self, x0, y0, x1, y1, color="black", linewidth=2):
         self.x0 = x0
         self.y0 = y0
         self.x1 = x1
         self.y1 = y1
+        self.color = color
+        self.linewidth = linewidth
 
     def control_corners(self):
         if self.x0 > self.x1:
@@ -36,6 +38,11 @@ class Rectangle:
 
 
     def draw(self, t):
+        old_color, old_size = t.pencolor(), t.pensize()
+        t.pencolor(self.color)
+        t.pensize(self.linewidth)
+
+
         t.penup()
         t.goto(self.x0, self.y0)
         t.pendown()
@@ -46,6 +53,8 @@ class Rectangle:
             t.forward(self.height())
             t.left(90)
         t.penup()
+        t.pencolor(old_color)
+        t.pensize(old_size)
 
     def info(self):
         """Print coordinates of the rectangle corners."""

@@ -1,5 +1,5 @@
 class Triangle:
-    def __init__(self, p1, p2, p3, *, color="black", linewidth=2):
+    def __init__(self, p1, p2, p3, color="black", linewidth=2):
         """p1, p2, p3 er tupler (x, y)."""
         self.p1, self.p2, self.p3 = p1, p2, p3
         self.color = color
