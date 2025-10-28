@@ -22,19 +22,16 @@ def create_random_rectangle(area):
     rectangle.control_corners()
     return rectangle
 
+
 def create_circle_random(area, r_range):
-    for a in area:
-        if a < 0:
-            a = a + r_range[1]
-        else:
-            a = a - r_range[1]
+    x_min, y_min, x_max, y_max = area
+    r_min, r_max = r_range
 
-    cx, cy = random.randint(area[0], area[2]), random.randint(area[1], area[3])
-    r = random.randint(r_range[0], r_range[1])
+    r = random.randint(r_min, r_max)
+    cx = random.randint(x_min + r, x_max - r)
+    cy = random.randint(y_min + r, y_max - r)
 
-    circle = Circle(cx, cy, r)
-
-    return circle
+    return Circle(cx, cy, r)
 
 def create_turtle():
     t = turtle.Turtle()
