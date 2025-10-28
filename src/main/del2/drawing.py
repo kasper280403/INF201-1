@@ -36,10 +36,22 @@ class Rectangle:
         self.y0 += dy
         self.y1 += dy
 
+
+    def draw(self, t):
+        """Tegn rektanglene."""
+        t.penup()
+        t.goto(self.x0, self.y0)
+        t.pendown()
+
+        for _ in range(2):
+            t.forward(self.width())
+            t.left(90)
+            t.forward(self.height())
+            t.left(90)
+
     def info(self):
         """Print coordinates of the rectangle corners."""
         print(f"Lower left: ({self.x0}, {self.y0}), upper right: ({self.x1}, {self.y1})")
-
 
 
 def createRectangle(xMin, yMin, xMax, yMax):
@@ -51,6 +63,7 @@ def createRectangle(xMin, yMin, xMax, yMax):
     rectangle = Rectangle(random_list[0], random_list[1], random_list[2], random_list[3])
     rectangle.control_corners()
     return rectangle
+
 
 
 if __name__ == "__main__":
