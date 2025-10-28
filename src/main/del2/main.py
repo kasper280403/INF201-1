@@ -77,7 +77,6 @@ def get_color():
     return colors[random.randint(0, len(colors) - 1)]
 
 
-
 if __name__ == "__main__":
     #xMin, yMin, xMax, yMax
     draw_area = [-300, -300, 300, 300]
@@ -88,11 +87,9 @@ if __name__ == "__main__":
 
     for _ in range(3):
 
-
         rectangles.append(create_random_rectangle(draw_area))
         circles.append(create_circle_random(draw_area, [20, 100]))
         triangles.append(create_triangle_random(draw_area))
-
 
     for r in rectangles:
         r.info()

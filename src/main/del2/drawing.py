@@ -19,7 +19,6 @@ class Rectangle:
             self.y0 = self.y1
             self.y1 = temp
 
-
     def width(self):
         return self.x1 - self.x0
 
@@ -36,12 +35,10 @@ class Rectangle:
         self.y0 += dy
         self.y1 += dy
 
-
     def draw(self, t):
         old_color, old_size = t.pencolor(), t.pensize()
         t.pencolor(self.color)
         t.pensize(self.linewidth)
-
 
         t.penup()
         t.goto(self.x0, self.y0)
