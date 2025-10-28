@@ -1,3 +1,5 @@
+# Henny Brenden, Kasper. S Karlsen
+
 import math
 import turtle
 
@@ -138,12 +140,12 @@ if __name__ == "__main__":
         Rectangle(-200, -120, -80, -40, color="firebrick", linewidth=4),
         Triangle((50, 150), (140, 220), (20, 230), color="dark green", linewidth=3),
         Triangle((-150, 60), (-80, 160), (-220, 170), color="purple", linewidth=2),
+        Rectangle(-20, 100, -110, 50, color="orange", linewidth=5),
     ]
 
     # Sirkel + kvadrat som den akkurat passer i (kontroll på korrekt tegning)
     c = Circle(0, -170, 60, color="orange", linewidth=3, segments=150)
-    sq = draw_fitting_square_for_circle(c, color="black", linewidth=1)
-    shapes.extend([sq, c])
+    shapes.extend([c])
 
     # Skriv info og tegn alt
     for s in shapes:
