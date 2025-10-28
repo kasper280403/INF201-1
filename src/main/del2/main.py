@@ -1,8 +1,10 @@
 import random
+import turtle
+
 from src.main.del2.drawing import Rectangle
 
 
-def createRectangle(xMin, yMin, xMax, yMax):
+def create_rectangle(xMin, yMin, xMax, yMax):
     random_list = []
     for i in range(2):
         random_list.append(random.randint(xMin, xMax))
@@ -12,11 +14,22 @@ def createRectangle(xMin, yMin, xMax, yMax):
     rectangle.control_corners()
     return rectangle
 
+def create_turtle():
+    t = turtle.Turtle()
+    t.shape('turtle')
+    t.speed(0)
+
+    return t
+
 
 if __name__ == "__main__":
     rectangles = []
     for i in range(3):
-        rectangles.append(createRectangle(0, 0, 100, 100))
+        rectangles.append(create_rectangle(0, 0, 100, 100))
 
     for r in rectangles:
         r.info()
+
+    t = create_turtle()
+
+
