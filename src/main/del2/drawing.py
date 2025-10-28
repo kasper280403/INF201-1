@@ -42,23 +42,21 @@ class Rectangle:
 
 
 
-
-
 def createRectangle(xMin, yMin, xMax, yMax):
     random_list = []
     for i in range(2):
         random_list.append(random.randint(xMin, xMax))
         random_list.append(random.randint(yMin, yMax))
 
-    recttangle = Rectangle(random_list[0], random_list[1], random_list[2], random_list[3])
+    rectangle = Rectangle(random_list[0], random_list[1], random_list[2], random_list[3])
+    rectangle.control_corners()
+    return rectangle
 
 
 if __name__ == "__main__":
-    rectangles = [
-        Rectangle(0, 0, 2, 3),
-        Rectangle(1, 1, 4, 5),
-        Rectangle(-2, -1, 1, 2)
-    ]
+    rectangles = []
+    for i in range(3):
+        rectangles.append(createRectangle(0, 0, 100, 100))
 
     for r in rectangles:
         r.info()
