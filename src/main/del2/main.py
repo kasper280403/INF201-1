@@ -3,6 +3,7 @@
 import random
 import turtle
 
+from src.main.del2.Circle import Circle
 from src.main.del2.drawing import Rectangle
 
 
@@ -28,7 +29,12 @@ def create_circle_random(area, r_range):
         else:
             a = a - r_range[1]
 
+    cx, cy = random.randint(area[0], area[2]), random.randint(area[1], area[3])
+    r = random.randint(r_range[0], r_range[1])
 
+    circle = Circle(cx, cy, r)
+
+    return circle
 
 
 
@@ -42,10 +48,15 @@ def create_turtle():
 
 
 if __name__ == "__main__":
-    rectangles = []
+    #xMin, yMin, xMax, yMax
     draw_area = [-300, -300, 300, 300]
+
+    rectangles = []
+    circles = []
+
     for i in range(3):
         rectangles.append(create_random_rectangle(draw_area))
+        circles.append(create_circle_random(draw_area, [20, 100]))
 
     for r in rectangles:
         r.info()
@@ -54,6 +65,8 @@ if __name__ == "__main__":
 
     for r in rectangles:
         r.draw(t)
+    for c in circles:
+        c.draw(t)
 
     turtle.done()
 
