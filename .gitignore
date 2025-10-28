@@ -36,3 +36,5 @@ Temporary Items
 *.sublime-project
 *.vscode
 .idea/
+.venv/
+venv/
