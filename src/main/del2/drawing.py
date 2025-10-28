@@ -1,6 +1,4 @@
 # Henny Brenden, Kasper S. Karlsen
-import random
-
 
 class Rectangle:
     def __init__(self, x0, y0, x1, y1):
@@ -38,7 +36,6 @@ class Rectangle:
 
 
     def draw(self, t):
-        """Tegn rektanglene."""
         t.penup()
         t.goto(self.x0, self.y0)
         t.pendown()
@@ -48,28 +45,11 @@ class Rectangle:
             t.left(90)
             t.forward(self.height())
             t.left(90)
+        t.penup()
 
     def info(self):
         """Print coordinates of the rectangle corners."""
         print(f"Lower left: ({self.x0}, {self.y0}), upper right: ({self.x1}, {self.y1})")
 
 
-def createRectangle(xMin, yMin, xMax, yMax):
-    random_list = []
-    for i in range(2):
-        random_list.append(random.randint(xMin, xMax))
-        random_list.append(random.randint(yMin, yMax))
 
-    rectangle = Rectangle(random_list[0], random_list[1], random_list[2], random_list[3])
-    rectangle.control_corners()
-    return rectangle
-
-
-
-if __name__ == "__main__":
-    rectangles = []
-    for i in range(3):
-        rectangles.append(createRectangle(0, 0, 100, 100))
-
-    for r in rectangles:
-        r.info()
