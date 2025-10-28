@@ -9,20 +9,16 @@ from src.main.del2.Triangle import Triangle
 
 
 def create_random_rectangle(area):
-    xMin = area[0]
-    yMin = area[1]
-    xMax = area[2]
-    yMax = area[3]
+    x_min, y_min, x_max, y_max = area
 
     random_list = []
     for i in range(2):
-        random_list.append(random.randint(xMin, xMax))
-        random_list.append(random.randint(yMin, yMax))
+        random_list.append(random.randint(x_min, x_max))
+        random_list.append(random.randint(y_min, y_max))
 
     rectangle = Rectangle(random_list[0], random_list[1], random_list[2], random_list[3])
     rectangle.control_corners()
     return rectangle
-
 
 def create_circle_random(area, r_range):
     x_min, y_min, x_max, y_max = area
