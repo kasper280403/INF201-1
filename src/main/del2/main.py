@@ -1,3 +1,5 @@
+# Henny Brenden, Kasper S. Karlsen
+
 import random
 import turtle
 
@@ -36,7 +38,6 @@ if __name__ == "__main__":
 
     for r in rectangles:
         r.draw(t)
-
     turtle.done()
 
 
