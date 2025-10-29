@@ -1,3 +1,5 @@
+# Henny Brenden, Kasper S. Karlsen
+
 class Triangle:
     def __init__(self, p1, p2, p3, color="black", linewidth=2):
         """p1, p2, p3 er tupler (x, y)."""
@@ -26,6 +28,6 @@ class Triangle:
         t.goto(*self.p2)
         t.goto(*self.p3)
         t.goto(*self.p1)
-        
+
         t.pencolor(old_color)
         t.pensize(old_size)

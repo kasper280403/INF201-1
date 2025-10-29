@@ -1,3 +1,5 @@
+# Henny Brenden, Kasper S. Karlsen
+
 import math
 
 class Circle:
