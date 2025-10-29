@@ -26,6 +26,6 @@ class Triangle:
         t.goto(*self.p2)
         t.goto(*self.p3)
         t.goto(*self.p1)
-
+        
         t.pencolor(old_color)
         t.pensize(old_size)

@@ -10,19 +10,8 @@ class Rectangle:
         self.linewidth = linewidth
 
     def control_corners(self):
-<<<<<<< HEAD
-        if self.x0 > self.x1:
-            temp = self.x0
-            self.x0 = self.x1
-            self.x1 = temp
-        if self.y0 > self.y1:
-            temp = self.y0
-            self.y0 = self.y1
-            self.y1 = temp
-=======
         self.x0, self.x1 = sorted([self.x0, self.x1])
         self.y0, self.y1 = sorted([self.y0, self.y1])
->>>>>>> 18b7eac (Fikset småfeil i drawing og feil i main, så nå fungerer koden perfekt)
 
     def width(self):
         return self.x1 - self.x0
@@ -30,21 +19,18 @@ class Rectangle:
     def height(self):
         return self.y1 - self.y0
 
-<<<<<<< HEAD
     def area(self):
         return self.width() * self.height()
 
     def move(self, dx, dy):
-        """Move rectangle by dx and dy."""
         self.x0 += dx
         self.x1 += dx
         self.y0 += dy
         self.y1 += dy
 
-=======
->>>>>>> 18b7eac (Fikset småfeil i drawing og feil i main, så nå fungerer koden perfekt)
     def draw(self, t):
         old_color, old_size = t.pencolor(), t.pensize()
+
         t.pencolor(self.color)
         t.pensize(self.linewidth)
         self.control_corners()
@@ -57,22 +43,23 @@ class Rectangle:
         t.setheading(0)
         t.pendown()
 
+
         for _ in range(2):
-            t.forward(self.width())
+            t.forward(w)
             t.left(90)
-            t.forward(self.height())
+            t.forward(h)
             t.left(90)
+
+
         t.penup()
         t.pencolor(old_color)
-<<<<<<< HEAD
         t.pensize(old_size)
 
     def info(self):
         """Print coordinates of the rectangle corners."""
-        print(f"Lower left: ({self.x0}, {self.y0}), upper right: ({self.x1}, {self.y1})")
-
-
-
-=======
-        t.pensize(old_size)
->>>>>>> 18b7eac (Fikset småfeil i drawing og feil i main, så nå fungerer koden perfekt)
+        print(
+            f"Rectangle | lower left=({self.x0}, {self.y0}), "
+            f"upper right=({self.x1}, {self.y1}), "
+            f"color={self.color}, linewidth={self.linewidth}, "
+            f"width={self.width()}, height={self.height()}, area={self.area()}"
+        )
