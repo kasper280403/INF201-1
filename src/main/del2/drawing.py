@@ -10,6 +10,7 @@ class Rectangle:
         self.linewidth = linewidth
 
     def control_corners(self):
+<<<<<<< HEAD
         if self.x0 > self.x1:
             temp = self.x0
             self.x0 = self.x1
@@ -18,6 +19,10 @@ class Rectangle:
             temp = self.y0
             self.y0 = self.y1
             self.y1 = temp
+=======
+        self.x0, self.x1 = sorted([self.x0, self.x1])
+        self.y0, self.y1 = sorted([self.y0, self.y1])
+>>>>>>> 18b7eac (Fikset småfeil i drawing og feil i main, så nå fungerer koden perfekt)
 
     def width(self):
         return self.x1 - self.x0
@@ -25,6 +30,7 @@ class Rectangle:
     def height(self):
         return self.y1 - self.y0
 
+<<<<<<< HEAD
     def area(self):
         return self.width() * self.height()
 
@@ -35,13 +41,20 @@ class Rectangle:
         self.y0 += dy
         self.y1 += dy
 
+=======
+>>>>>>> 18b7eac (Fikset småfeil i drawing og feil i main, så nå fungerer koden perfekt)
     def draw(self, t):
         old_color, old_size = t.pencolor(), t.pensize()
         t.pencolor(self.color)
         t.pensize(self.linewidth)
+        self.control_corners()
+
+        w = self.width()
+        h = self.height()
 
         t.penup()
         t.goto(self.x0, self.y0)
+        t.setheading(0)
         t.pendown()
 
         for _ in range(2):
@@ -51,6 +64,7 @@ class Rectangle:
             t.left(90)
         t.penup()
         t.pencolor(old_color)
+<<<<<<< HEAD
         t.pensize(old_size)
 
     def info(self):
@@ -59,3 +73,6 @@ class Rectangle:
 
 
 
+=======
+        t.pensize(old_size)
+>>>>>>> 18b7eac (Fikset småfeil i drawing og feil i main, så nå fungerer koden perfekt)
