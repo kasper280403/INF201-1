@@ -1,3 +1,5 @@
+#Kasper S. Karlsen
+
 class Complex:
     def __init__(self, reg= 0, imag = 0):
         self.reg = reg
