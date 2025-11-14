@@ -238,24 +238,21 @@ if __name__ == "__main__":
     N = 3
 
     rect_subareas = make_sub_areas(*rect_area, N)
+
     rectangles = [create_random_rectangle(a) for a in rect_subareas]
     circles = [create_circle_random(circle_area, (20, 80)) for _ in range(N)]
     triangles = [create_triangle_random(tri_area) for _ in range(N)]
 
-    for rect in rectangles:
-        rect.info()
-    for circ in circles:
-        circ.info()
-    for tri in triangles:
-        tri.info()
 
-    # draw all
     for rect in rectangles:
         rect.draw(turt)
+        rect.info()
     for circ in circles:
         circ.draw(turt)
+        circ.info()
     for tri in triangles:
         tri.draw(turt)
+        tri.info()
 
     window.update()
     window.mainloop()
