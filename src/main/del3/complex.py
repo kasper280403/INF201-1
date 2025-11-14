@@ -1,10 +1,13 @@
 class Complex:
-    def __init__(self, reg, imag):
+    def __init__(self, reg= 0, imag = 0):
         self.reg = reg
         self.imag = imag
 
     def __str__(self):
-        return f'{self.reg} " + " {self.imag}+"i" '
+        if self.imag >= 0:
+            return f"{self.reg}+{self.imag}i"
+        else:
+            return f"{self.reg}{self.imag}i"
 
     def __repr__(self):
         return f"Complex({self.reg}, {self.imag})"
