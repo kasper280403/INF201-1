@@ -1,0 +1,353 @@
+commit 9d538dc7ca9e5db5ff063b23eee4cfe7ac57aef1
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Fri Nov 14 17:55:29 2025 +0100
+
+    Name added
+
+commit f96f25e4fbfec56acdb83cba860e45b6ebd97bc6
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Fri Nov 14 17:51:23 2025 +0100
+
+    readme added
+
+commit bc9c78683f7ae0da913dcfa660ffb3fa08edda50
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Fri Nov 14 17:47:23 2025 +0100
+
+    All tests added
+
+commit c5a18116c655b1b991da8ed5c53362b5a408e62b
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Fri Nov 14 17:44:55 2025 +0100
+
+    All functiosn added
+
+commit 1279c57c859603f2f3054fc0cfb98436ac9cddb2
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Fri Nov 14 17:41:07 2025 +0100
+
+    Mostly got stuff working
+
+commit e8c66d0bb7993233d5887a8f8661a5560a9e3211
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Fri Nov 14 17:27:32 2025 +0100
+
+    New repo with start code
+
+commit b6076efb3a8f1d785fe4c7080a326ef4e7035a57
+Author: Henny Brenden <henny.brenden@gmail.com>
+Date:   Wed Oct 29 10:52:34 2025 +0100
+
+    dobbeltsjekket oppgavekrav
+
+commit 98799900cc55129dc40e0fae9069177775de8f19
+Author: Henny Brenden <henny.brenden@gmail.com>
+Date:   Wed Oct 29 10:47:07 2025 +0100
+
+    Puttet alt i en fil for oppgaveinlevering, og krav.
+
+commit bbcb53b3d8112f5e4079da366e3a3cddf7e3c76c
+Author: Henny Brenden <henny.brenden@gmail.com>
+Date:   Wed Oct 29 10:25:42 2025 +0100
+
+    la til navn
+
+commit 2238a78dd826f2e032f3e9c93ac34c767e052ed8
+Author: Henny Brenden <henny.brenden@gmail.com>
+Date:   Wed Oct 29 10:24:03 2025 +0100
+
+    sammenslo begge kodene. hadde et problem med at de ble lagt sammen i git.
+
+commit 094d77a0c9c34754b6b87e3e98a7ebcb3827243a
+Author: Henny Brenden <henny.brenden@gmail.com>
+Date:   Wed Oct 29 09:45:42 2025 +0100
+
+    Fikset småfeil i drawing og feil i main, så nå fungerer koden perfekt
+
+commit 8c8a4cb58cc51e486a6db4553f96f4689b5d1447
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Tue Oct 28 22:32:36 2025 +0100
+
+    Made structure more consistent
+
+commit d7b1ce7b4523b592fb099b3e3895c4114db5e732
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Tue Oct 28 22:28:44 2025 +0100
+
+    Fixed all issues, pushing working branch
+
+commit 531e0e754053d174386ee75aeeea4cd4725f9ad9
+Merge: 300d5c4 21ed799
+Author: Henny Brenden <henny.brenden@gmail.com>
+Date:   Tue Oct 28 10:06:13 2025 +0100
+
+    Merge branch 'main' of https://github.com/kasper280403/INF201-1
+    Merged changes from git
+
+commit 300d5c45171ded65e28e1de84184dd8b37cb306b
+Author: Henny Brenden <henny.brenden@gmail.com>
+Date:   Tue Oct 28 10:04:13 2025 +0100
+
+    added triangle
+
+commit 21ed7997a54dd626b8560bc09914c09873da446f
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Tue Oct 28 10:04:08 2025 +0100
+
+    Fixed structure and simplified code
+
+commit 0a7af17ab42d71ee0d4a633ddd18d48de2b542e9
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Tue Oct 28 09:58:56 2025 +0100
+
+    Checking everything is up to date
+
+commit 1483e64b7d2aa01680e798106e3ef9415b056030
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Tue Oct 28 09:55:42 2025 +0100
+
+    Fixed bugs in crete circle
+
+commit 521a34416dd868dab3fadbb6b32aace034e2831c
+Merge: 7815146 123471f
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Tue Oct 28 09:52:03 2025 +0100
+
+    Merge remote-tracking branch 'origin/main'
+
+commit 78151467d11affb88d5e3c79ef2bd23113cf98a5
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Tue Oct 28 09:51:52 2025 +0100
+
+    Tiny changes to structure
+
+commit 123471fa1d967d0fe250f277a59348d267203d34
+Author: Henny Brenden <henny.brenden@gmail.com>
+Date:   Tue Oct 28 09:49:55 2025 +0100
+
+    tester litt
+
+commit f64ba1455816eb92c13ea8f5178d846aaad77de9
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Tue Oct 28 09:48:02 2025 +0100
+
+    Drawing circle now works
+
+commit 37f8457187de03593ebb83fb85ada945472278e6
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Tue Oct 28 09:42:17 2025 +0100
+
+    Started create_circle method
+
+commit f346b74f61c43b17b1624442b5f605e9b435efc3
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Tue Oct 28 09:38:58 2025 +0100
+
+    Made area easier to adjust
+
+commit 27fd3adac83790aa03d3bada3d25720b2326b6ed
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Tue Oct 28 09:35:32 2025 +0100
+
+    Added names to top
+
+commit 9dfa56c1295795abb09fc02f1eb1f5dd166771e2
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Tue Oct 28 09:34:06 2025 +0100
+
+    Removed file and added circle and triangle class
+
+commit 61ea9afec2707ce077d9558b06ef0d0b4ab4e8e6
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Tue Oct 28 09:31:48 2025 +0100
+
+    Added turtle to main and improved square drawing area
+
+commit cced723b735fb346b42fc0626df808279c5bdeaf
+Author: Henny Brenden <henny.brenden@gmail.com>
+Date:   Tue Oct 28 09:24:32 2025 +0100
+
+    tester gitignore feil
+
+commit 38bd9364f04b16c8730b35f4ce3b5dd43ca63293
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Tue Oct 28 09:21:20 2025 +0100
+
+    Removed the venv/
+
+commit a6f3413aa3d2b14a45efa6d0db14f0f04c4cb98b
+Author: Henny Brenden <henny.brenden@gmail.com>
+Date:   Tue Oct 28 09:14:44 2025 +0100
+
+    Endret på firkant rundt sirkel og hastighet
+
+commit d114b5fd1b0ea0978119719ce1c3ae4c3fe5ab91
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Tue Oct 28 09:10:00 2025 +0100
+
+    Added main file, moved main stuff to main.py
+
+commit 31c7ede5823739e48362e8f4b64c2110b81a23fe
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Tue Oct 28 09:04:45 2025 +0100
+
+    Delete draing_rectangles and added drawing method to Rectangle class
+
+commit 4383d763e9600cb8c83a34e781f74940e4119be1
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Tue Oct 28 09:00:52 2025 +0100
+
+    Add createRectangle func to improve reusability and lower coupling
+
+commit e16bac03e8ddc7ee6e5323277b91f248fea14367
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Tue Oct 28 08:56:11 2025 +0100
+
+    Removed Rectangle.py and transfered to drawing.py
+
+commit 275f6ef76566dc3d435a89b5b518b7c9a8852a03
+Author: Henny Brenden <henny.brenden@gmail.com>
+Date:   Mon Oct 27 19:46:47 2025 +0100
+
+    Den med flere figurer
+
+commit e4c77ee8ad153607d47c7ba311bdf168fa4a3278
+Author: Henny Brenden <henny.brenden@gmail.com>
+Date:   Tue Oct 21 09:15:18 2025 +0200
+
+    Lagde førsteutkast
+
+commit 0c922d12acda59b6ad505690241c10933e7434d9
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Mon Oct 20 15:08:36 2025 +0200
+
+    Made dir del2/ and added drawing.py file
+
+commit 9b5fef79e9111d712e2b9810a6af409754d002fc
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Mon Oct 20 15:00:30 2025 +0200
+
+    Missed a file from task 1 and deleted requirements.txt
+
+commit ea3b9b60bb0719108505501b0cb33905d89aaa02
+Merge: 9c9fdb1 4d7b341
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Mon Oct 20 14:57:58 2025 +0200
+
+    Merge branch 'main' of github.com:kasper280403/INF201-1
+
+commit 9c9fdb1d6ea17c5e8472e8c692cf34a28bb4bebb
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Mon Oct 20 14:54:17 2025 +0200
+
+    Moved task 1 to folder del1/
+
+commit 4d7b341787f02fec8fc08a7a11c2f5d30e0f51d8
+Author: Henny Brenden <henny.brenden@gmail.com>
+Date:   Thu Oct 16 16:37:53 2025 +0200
+
+    fikse fet skrift bare
+
+commit ff681bf0f644b7a85dcfc1e96614f9a293c2d65f
+Author: Henny Brenden <henny.brenden@gmail.com>
+Date:   Thu Oct 16 16:36:03 2025 +0200
+
+    tester litt
+    
+    prøve appen istedenfor nettleseren litt bare
+
+commit 5749444b1e3757105961869d46b3989fb011f739
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Thu Oct 16 16:01:16 2025 +0200
+
+    Added names to files
+
+commit d2328156540f691c0259c8215cb09b32d22bf5d5
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Thu Oct 16 15:57:58 2025 +0200
+
+    Now it looks lika a plant
+
+commit 758c832a2549613dd4ea5ad51e2b777a4abe94be
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Thu Oct 16 15:55:25 2025 +0200
+
+    fractal_plant.py added, plant looks like a steelwire-that is a feature
+
+commit 0bd01fe8f8697798bd26046d088ae2897ea40469
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Thu Oct 16 15:17:48 2025 +0200
+
+    Deleted .whl file form resources
+
+commit eecb712090a6c3748327a5804ec54f2fbc6fb635
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Thu Oct 16 15:15:38 2025 +0200
+
+    Added snowflake back into main
+
+commit cb6e69a2fd4fd2e5c53581c607de784b9fbda52e
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Thu Oct 16 15:12:19 2025 +0200
+
+    More variable perfecting
+
+commit 151bc065c40fd7e252e8f0c016b2868590487588
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Thu Oct 16 15:07:43 2025 +0200
+
+    Fikset på variabler så den tegnet penere
+
+commit 606061f4777799c8ae6af0b263645fe7ecf84187
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Thu Oct 16 15:03:03 2025 +0200
+
+    Fixed sierpinsky.py
+
+commit 9a2018aba920a18e9e9a89222209c93432efd963
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Thu Oct 16 14:55:12 2025 +0200
+
+    Created sierpinsky.py
+
+commit 3492fc2a0d09a803c3510c9be5adc9dde6390edf
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Thu Oct 16 14:48:10 2025 +0200
+
+    Connected snowflake to main
+
+commit a728ade11cf5418eea5dd6a76932a126f3d81a09
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Thu Oct 16 13:55:50 2025 +0200
+
+    More updates to README.md
+
+commit 38611d58e5bf2d341c291aeac1b8fa48cc5896d8
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Thu Oct 16 13:54:30 2025 +0200
+
+    Updated readme
+
+commit 2485c1a0d48584c9f9b3e084c58dae215a7fbe9c
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Thu Oct 16 13:51:25 2025 +0200
+
+    Deleted useless files
+
+commit 830816c6dd085ac7af0dc6bb43052c77fc88dfdd
+Author: henny Brenden <hennybrenden@MacBook-Pro.local>
+Date:   Tue Oct 7 09:56:14 2025 +0200
+
+    Added snowflake.py and resource
+
+commit 29810a2f25e855c3a848bf648215684cd7b06738
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Tue Oct 7 09:30:26 2025 +0200
+
+    .gitignore added
+
+commit 60aaa97885d68232b05743e59bca5a4fe31436c5
+Author: kasper280403 <kasper.s.karlsen@gmail.com>
+Date:   Tue Oct 7 09:23:08 2025 +0200
+
+    Initial setup
